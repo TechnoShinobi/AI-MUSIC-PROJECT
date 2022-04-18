@@ -1,0 +1,45 @@
+body{
+background-size: cover;
+    
+}
+
+.div_volume{
+float: left;
+}
+
+
+
+
+.div_speed{
+float: right;
+
+}
+
+
+.disk_img{
+width: 200px;
+border-radius: 100px;
+}
+
+.heading{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+.note{
+font-size: 15px;
+color: black;
+
+}
+
+.btn_1{
+font-size: 25px;
+width: 130px;
+}
+
+
+
+
+
+
