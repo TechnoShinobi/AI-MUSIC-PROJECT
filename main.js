@@ -64,6 +64,14 @@ song2.play();
 document.getElementById("song").innerHTML = "Playing - Peter Pan Song"
 }
 }
-
+song1_status = song1.isPlaying();
+if (scoreright > 0.2) {
+circle(rightWristX,rightWristY,20)
+song1.stop()
+if (song1_status == false) {
+song1.play();
+document.getElementById("song").innerHTML = "Playing - Harry Potter Theme Song"
+}
+}
 
 }
